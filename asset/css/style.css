@@ -22,7 +22,10 @@
 .info > div {
   width: calc(80vw / 3);
   height: 4rem;
-  border: 2px dashed red;
+  border: 5px dashed #3f51b5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 div.left {

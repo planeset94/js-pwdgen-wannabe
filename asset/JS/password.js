@@ -11,8 +11,12 @@ document.getElementById('colore_utente').innerHTML='Il tuo colore preferito è: 
 // Stampa sulla pagina il risultato
 
 
-var total= document.getElementById('pass').innerHTML='La tua nuova password è: ' +nombre+surName+color+21;
+// var total= document.getElementById('pass').innerHTML='La tua nuova password è: ' +nombre+surName+color+21;
+
+
+
+
 
 // Altro Modo 
-// var total= nombre+surName+color+21;
-// document.getElementById('pass').innerHTML=total;
+var total= nombre+surName+color+21;
+document.getElementById('pass').innerHTML=total.toUpperCase();
